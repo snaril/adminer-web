@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "H:/leetter-view"
+		},
+		{
+			"path": "../snaril-web"
+		},
+		{
+			"path": "E:/wndExplr_dev/Vue/go-admin"
+		},
+		{
+			"path": "E:/wndExplr_dev/Go/src/gin-vue-admin/web"
+		},
+		{
+			"path": "E:/wndExplr_dev/Vue/Saber-3.x"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib"
+	}
+}

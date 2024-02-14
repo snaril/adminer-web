@@ -1,0 +1,68 @@
+body {
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+}
+
+
+:root {
+  --el-menu-active-color: var(--el-color-primary);
+  --el-menu-text-color: var(--el-text-color-primary);
+  --el-menu-hover-text-color: var(--el-color-primary);
+  --el-menu-bg-color: var(--el-fill-color-blank);
+  --el-menu-hover-bg-color: var(--el-color-primary-light-9);
+  --el-menu-item-height: 48px;
+  --el-menu-sub-item-height: calc(var(--el-menu-item-height) - 6px);
+  --el-menu-horizontal-sub-item-height: 36px;
+  --el-menu-item-font-size: var(--el-font-size-base);
+  --el-menu-item-hover-fill: var(--el-color-primary-light-9);
+  --el-menu-border-color: var(--el-border-color);
+  --el-menu-base-level-padding: 20px;
+  --el-menu-level-padding: 20px;
+  --el-menu-icon-width: 24px;
+  --vxe-table-row-height-default: 42px !important; /* 设置table 表格的高度 */
+  --vxe-input-height-default: 32px !important; /* 设置input 框的高度 */
+  --vxe-button-height-default: 32px !important; /* 设置input 框的高度 */
+}
+.element-tree-node-label-line{
+  display: none !important;
+}
+
+
+:deep(.vxe-table--empty-placeholder){
+  @apply h-5/6
+}
+
+
+/* 设置textarea 文本域 最小的高度 */
+.vxe-textarea--inner {
+  min-height: 71px !important; /* 你希望设置的最小高度 */
+}
+.el-drawer__header{
+  margin-bottom: 0px  !important;
+}
+
+.vxe-input {
+  font-size: var(--vxe-font-size);
+  height: var(--vxe-input-height-default);
+  line-height: var(--vxe-input-height-default);
+}
+
+/* 设置form 表单 的 item 左缩进 -10px */
+.vxe-form--item-inner {
+  margin-left: -10px;
+  transform: translateX(-10px) !important;
+}
+/* .vxe-button+.vxe-button.type--button{
+  margin-left: 0px;
+  margin-right: 10px;
+} */
+* { touch-action: none; }
+/* * {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+} */
